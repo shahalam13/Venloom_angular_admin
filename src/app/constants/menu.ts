@@ -419,7 +419,7 @@ const data: IMenuItem[] = [
 {
   icon: 'simple-icon-people',
   label: 'Customer',
-  to: '/app/pages/product/data-list'
+  to: '/app/ui/datatables/scrollable'
 },
 {
   icon: 'iconsminds-gear',

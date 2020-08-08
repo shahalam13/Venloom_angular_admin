@@ -84,7 +84,7 @@ export class ChatComponent implements OnInit, OnDestroy {
       return {
         id,
         title: 'Sarah Kortney',
-        img: '/assets/img/profile-pic-l.jpg',
+        img: '../assets/img/profile-pic-l.jpg',
         date: '5 minutes ago'
       };
     }

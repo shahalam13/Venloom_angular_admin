@@ -3,9 +3,9 @@ const posts = [
     type: 'video',
     name: 'Mayra Sibley',
     date: '10 minutes ago',
-    profilePic: '/assets/img/profile-pic-l.jpg',
+    profilePic: '../assets/img/profile-pic-l.jpg',
     detail: 'Keeping your eye on the ball while performing a deep dive on the start-up mentality.',
-    image: '/assets/img/subpage-video-poster.jpg',
+    image: '../assets/img/subpage-video-poster.jpg',
     video: 'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
     likeCount: 125,
     commentCount: 3,
@@ -16,7 +16,7 @@ const posts = [
           `Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Pellentesque quis cursus mauris. Nam in ornare erat.
           Vestibulum convallis enim ac massa dapibus consectetur. Maecenas facilisis eros ac felis mattis, eget auctor sapien varius.`,
         date: 'Two hours ago',
-        thumb: '/assets/img/profile-pic-l-3.jpg',
+        thumb: '../assets/img/profile-pic-l-3.jpg',
         likes: 1,
         id: 1
       },
@@ -24,7 +24,7 @@ const posts = [
         name: 'Philip Nelms',
         detail: 'Quisque consectetur lectus eros, sed sodales libero ornare cursus. Etiam elementum ut dolor eget hendrerit. Suspendisse eu lacus eu eros lacinia feugiat sit amet non purus.',
         date: 'Two hours ago',
-        thumb: '/assets/img/profile-pic-l-4.jpg',
+        thumb: '../assets/img/profile-pic-l-4.jpg',
         likes: 5,
         id: 2
       }],
@@ -34,11 +34,11 @@ const posts = [
     type: 'image',
     name: 'Mayra Sibley',
     date: '2 hours ago',
-    profilePic: '/assets/img/profile-pic-l.jpg',
+    profilePic: '../assets/img/profile-pic-l.jpg',
     detail:
       `Podcasting operational change management inside of workflows to establish a framework.
       Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality.`,
-    image: '/assets/img/detail-5.jpg',
+    image: '../assets/img/detail-5.jpg',
     video: '',
     likeCount: 3,
     commentCount: 1,
@@ -47,7 +47,7 @@ const posts = [
         name: 'Latarsha Gama',
         detail: 'Taking seamless key performance indicators offline to maximise the long tail.',
         date: 'Five days ago',
-        thumb: '/assets/img/profile-pic-l-7.jpg',
+        thumb: '../assets/img/profile-pic-l-7.jpg',
         likes: 2,
         id: 4
       }
@@ -58,7 +58,7 @@ const posts = [
     type: 'text',
     name: 'Mayra Sibley',
     date: '3 hours ago',
-    profilePic: '/assets/img/profile-pic-l.jpg',
+    profilePic: '../assets/img/profile-pic-l.jpg',
     detail:
       `Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail.
       Keeping your eye on the ball while performing a deep dive on the start-up mentality.`,
@@ -73,9 +73,9 @@ const posts = [
     type: 'image',
     name: 'Mayra Sibley',
     date: 'A day ago',
-    profilePic: '/assets/img/profile-pic-l.jpg',
+    profilePic: '../assets/img/profile-pic-l.jpg',
     detail: `Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality.`,
-    image: '/assets/img/detail-1.jpg',
+    image: '../assets/img/detail-1.jpg',
     video: '',
     likeCount: 11,
     commentCount: 4,
@@ -83,7 +83,7 @@ const posts = [
       name: 'Latarsha Gama',
       detail: 'Taking seamless key performance indicators offline to maximise the long tail.',
       date: 'Five days ago',
-      thumb: '/assets/img/profile-pic-l-7.jpg',
+      thumb: '../assets/img/profile-pic-l-7.jpg',
       likes: 0,
       id: 4
     },
@@ -91,7 +91,7 @@ const posts = [
       name: 'Laree Munsch',
       detail: 'Quisque consectetur lectus eros, sed sodales libero ornare cursus. Etiam elementum ut dolor eget hendrerit. Suspendisse eu lacus eu eros lacinia feugiat sit amet non purus.',
       date: 'Six days ago',
-      thumb: '/assets/img/profile-pic-l-2.jpg',
+      thumb: '../assets/img/profile-pic-l-2.jpg',
       likes: 14,
       id: 5
     }],

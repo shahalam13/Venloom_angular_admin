@@ -1,6 +1,6 @@
 import { Component, OnInit, ElementRef, HostListener, ViewChild, AfterContentInit } from '@angular/core';
 import { ColumnMode, DatatableComponent, SelectionType } from '@swimlane/ngx-datatable';
-import { ApiService, IProduct } from '../../../../../data/api.service';
+import { ApiService, Cust } from '../../../../../data/api.service';
 
 @Component({
   selector: 'app-scrollable',
@@ -15,11 +15,11 @@ export class ScrollableComponent implements OnInit, AfterContentInit {
   currentPage = 0;
 
   isLoading: boolean;
-  rows: IProduct[] = [];
+  rows: Cust[] = [];
   columns = [
-    { prop: 'title', name: 'Title' },
-    { prop: 'sales', name: 'Sales' },
-    { prop: 'category', name: 'Category' },
+    { prop: 'name', name: 'Name' },
+    { prop: 'balance', name: 'balance' },
+    { prop: 'category', name: 'Status' },
     { prop: 'id', name: 'Id' }
   ];
   screenHeight: number;

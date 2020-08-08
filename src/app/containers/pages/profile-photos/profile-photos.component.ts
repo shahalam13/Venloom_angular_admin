@@ -8,28 +8,28 @@ import { Lightbox } from 'ngx-lightbox';
 export class ProfilePhotosComponent implements OnInit {
   album = [
     {
-      src: '/assets/img/marble-cake.jpg',
-      thumb: '/assets/img/marble-cake-thumb.jpg'
+      src: '../assets/img/marble-cake.jpg',
+      thumb: '../assets/img/marble-cake-thumb.jpg'
     },
     {
-      src: '/assets/img/parkin.jpg',
-      thumb: '/assets/img/parkin-thumb.jpg'
+      src: '../assets/img/parkin.jpg',
+      thumb: '../assets/img/parkin-thumb.jpg'
     },
     {
-      src: '/assets/img/fruitcake.jpg',
-      thumb: '/assets/img/fruitcake-thumb.jpg'
+      src: '../assets/img/fruitcake.jpg',
+      thumb: '../assets/img/fruitcake-thumb.jpg'
     },
     {
-      src: '/assets/img/tea-loaf.jpg',
-      thumb: '/assets/img/tea-loaf-thumb.jpg'
+      src: '../assets/img/tea-loaf.jpg',
+      thumb: '../assets/img/tea-loaf-thumb.jpg'
     },
     {
-      src: '/assets/img/napoleonshat.jpg',
-      thumb: '/assets/img/napoleonshat-thumb.jpg'
+      src: '../assets/img/napoleonshat.jpg',
+      thumb: '../assets/img/napoleonshat-thumb.jpg'
     },
     {
-      src: '/assets/img/magdalena.jpg',
-      thumb: '/assets/img/magdalena-thumb.jpg'
+      src: '../assets/img/magdalena.jpg',
+      thumb: '../assets/img/magdalena-thumb.jpg'
     }
   ];
   constructor(private lightbox: Lightbox) {

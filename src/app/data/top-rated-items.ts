@@ -10,7 +10,7 @@ export interface ITopRatedItem {
 const data: ITopRatedItem[] = [
     {
         id: 0,
-        image: '/assets/img/carousel-1.jpg',
+        image: '../assets/img/carousel-1.jpg',
         order: '1',
         title: 'Cheesecake',
         rate: 5,
@@ -18,7 +18,7 @@ const data: ITopRatedItem[] = [
     },
     {
         id: 1,
-        image: '/assets/img/carousel-2.jpg',
+        image: '../assets/img/carousel-2.jpg',
         order: '2',
         title: 'Chocolate Cake',
         rate: 4,
@@ -26,7 +26,7 @@ const data: ITopRatedItem[] = [
     },
     {
         id: 2,
-        image: '/assets/img/carousel-3.jpg',
+        image: '../assets/img/carousel-3.jpg',
         order: '3',
         title: 'Cremeschnitte',
         rate: 4,
